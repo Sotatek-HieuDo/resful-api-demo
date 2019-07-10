@@ -26,7 +26,7 @@
             <th></th>
           </tr>
         </thead>
-        <tbody class="table-body"> 
+        <tbody class="table-body">
         </tbody>
       </table>
     </div>
