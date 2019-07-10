@@ -3,6 +3,10 @@
 <br>
 Tao database va edit config trong env
 <br>
+<b> $ php artisan migrate</b>
+<br>
+<b> $ php artisan db:seed</b>
+<br>
 $ php artisan serve
 <br>
 Done
