@@ -12,7 +12,7 @@ $ php artisan serve
 Done
 
 <br>
-<h2>Route list<h2>
+<h2>Route list</h2>
 <br>
 +--------+-----------+-----------------------------+------------------+------------------------------------------------+--------------+
 | Domain | Method    | URI                         | Name             | Action                                         | Middleware   |
