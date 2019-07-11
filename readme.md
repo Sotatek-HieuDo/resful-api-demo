@@ -14,4 +14,4 @@ Done
 <br>
 <h2>Route list</h2>
 <br>
-<img src="/api.png">
+<img src="https://github.com/Sotatek-HieuDo/resful-api-demo/blob/master/public/api.png">
