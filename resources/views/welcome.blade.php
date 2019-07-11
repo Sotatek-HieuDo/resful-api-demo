@@ -102,17 +102,19 @@
         }
 
         function removeOneContact(contactId) {
-          $.ajax({
-              url: '/api/contacts/' + contactId,
-              method: 'DELETE',
-              contentType: 'application/json',
-              success: function(result) {
-                    getAllContacts();
-              },
-              error: function(request,msg,error) {
-                  // handle failure
-              }
-          });
+          if (confirm('Are you sure ?')) {
+            $.ajax({
+                url: '/api/contacts/' + contactId,
+                method: 'DELETE',
+                contentType: 'application/json',
+                success: function(result) {
+                      getAllContacts();
+                },
+                error: function(request,msg,error) {
+                    // handle failure
+                }
+            });
+          }
         }
         $('#add-contact').click(function () {
           $.post('/api/contacts', {name: $('#add-name').val(), number: $('#add-phone-number').val(), email: $('#add-email').val() })
